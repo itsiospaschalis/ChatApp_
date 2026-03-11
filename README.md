@@ -39,7 +39,9 @@ Users log in or sign up, create named chat threads, type messages, and the backe
    - The backend saves the user message in PostgreSQL <img width="1865" height="438" alt="image" src="https://github.com/user-attachments/assets/5a876b4d-759f-497a-bda7-b149e34a5a8c" />
 
    - The backend calls Groq’s API with the message content
-   - Groq returns a completion; the backend saves it and returns it to the frontend
+   - Groq returns a completion; the backend saves it and returns it to the frontend <img width="1374" height="834" alt="image" src="https://github.com/user-attachments/assets/6cdbea63-33e8-4dff-9c38-d7d84cb2554e" /> <img width="2074" height="518" alt="image" src="https://github.com/user-attachments/assets/d1975b02-9bcf-454e-bd71-1b83795ae899" />
+
+
 4. **Profile** — Users can view and edit their profile (name, username, email, password).
 
 The frontend runs on port 3000; the backend on 8080. The frontend calls the backend REST API for all data and AI responses.
