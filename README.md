@@ -28,11 +28,13 @@ Users log in or sign up, create named chat threads, type messages, and the backe
 
 ## How it works
 
-1. **Authentication** — Users sign up or log in. The backend issues a JWT, which the frontend stores and sends with each request.
+1. **Authentication** — Users sign up or log in. The backend issues a JWT, which the frontend stores and sends with each request.<img width="1899" height="849" alt="image" src="https://github.com/user-attachments/assets/45e2dcba-887b-40f0-89d9-a8452b182225" />
+
 2. **Chat threads** — Each user can create multiple chats (e.g. “General”, “Product Roadmap”). The sidebar lists them; clicking switches the active conversation.
 3. **Messaging** — When a message is sent:
    - The frontend POSTs it to the backend
-   - The backend saves the user message in PostgreSQL
+   - The backend saves the user message in PostgreSQL <img width="1865" height="438" alt="image" src="https://github.com/user-attachments/assets/5a876b4d-759f-497a-bda7-b149e34a5a8c" />
+
    - The backend calls Groq’s API with the message content
    - Groq returns a completion; the backend saves it and returns it to the frontend
 4. **Profile** — Users can view and edit their profile (name, username, email, password).
