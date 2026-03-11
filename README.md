@@ -41,7 +41,8 @@ Users log in or sign up, create named chat threads, type messages, and the backe
    - The backend saves the user message in PostgreSQL <img width="1865" height="438" alt="image" src="https://github.com/user-attachments/assets/5a876b4d-759f-497a-bda7-b149e34a5a8c" />
 
    - The backend calls Groq’s API with the message content
-   - Groq returns a completion; the backend saves it and returns it to the frontend <img width="1374" height="834" alt="image" src="https://github.com/user-attachments/assets/6cdbea63-33e8-4dff-9c38-d7d84cb2554e" /> <img width="2074" height="518" alt="image" src="https://github.com/user-attachments/assets/d1975b02-9bcf-454e-bd71-1b83795ae899" />
+   - Groq returns a completion; the backend saves it and returns it to the frontend<img width="1377" height="876" alt="image" src="https://github.com/user-attachments/assets/feceffc0-6460-4442-a60b-b9908275c916" />
+ <img width="2074" height="518" alt="image" src="https://github.com/user-attachments/assets/d1975b02-9bcf-454e-bd71-1b83795ae899" />
 
 
 5. **Profile** — Users can view and edit their profile (name, username, email, password).
