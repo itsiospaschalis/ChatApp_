@@ -31,10 +31,12 @@ Users log in or sign up, create named chat threads, type messages, and the backe
 1. **Authentication** — Users sign up or log in. The backend issues a JWT, which the frontend stores and sends with each request.<img width="1869" height="885" alt="image" src="https://github.com/user-attachments/assets/41edc44b-c112-498e-8995-5952a360fb62" />
 <img width="1899" height="849" alt="image" src="https://github.com/user-attachments/assets/45e2dcba-887b-40f0-89d9-a8452b182225" />
 
-2. **Chat threads** — Each user can create multiple chats (e.g. “General”, “Product Roadmap”). The sidebar lists them; clicking switches the active conversation.Backend : <img width="1398" height="762" alt="image" src="https://github.com/user-attachments/assets/c635a93c-57a7-471b-bf7f-3fce0b4118f1" />  Frontend: <img width="683" height="481" alt="image" src="https://github.com/user-attachments/assets/938a76ae-168c-45a2-ae36-c8a4bb21525f" />
+2. **Chat threads** — Each user can create multiple chats (e.g. “General”, “Product Roadmap”). The sidebar lists them; clicking switches the active conversation.
+   Backend : <img width="1398" height="762" alt="image" src="https://github.com/user-attachments/assets/c635a93c-57a7-471b-bf7f-3fce0b4118f1" />
+   Frontend: <img width="683" height="481" alt="image" src="https://github.com/user-attachments/assets/938a76ae-168c-45a2-ae36-c8a4bb21525f" />
 
 
-3. **Messaging** — When a message is sent:
+4. **Messaging** — When a message is sent:
    - The frontend POSTs it to the backend
    - The backend saves the user message in PostgreSQL <img width="1865" height="438" alt="image" src="https://github.com/user-attachments/assets/5a876b4d-759f-497a-bda7-b149e34a5a8c" />
 
@@ -42,7 +44,7 @@ Users log in or sign up, create named chat threads, type messages, and the backe
    - Groq returns a completion; the backend saves it and returns it to the frontend <img width="1374" height="834" alt="image" src="https://github.com/user-attachments/assets/6cdbea63-33e8-4dff-9c38-d7d84cb2554e" /> <img width="2074" height="518" alt="image" src="https://github.com/user-attachments/assets/d1975b02-9bcf-454e-bd71-1b83795ae899" />
 
 
-4. **Profile** — Users can view and edit their profile (name, username, email, password).
+5. **Profile** — Users can view and edit their profile (name, username, email, password).
 
 The frontend runs on port 3000; the backend on 8080. The frontend calls the backend REST API for all data and AI responses.
 
