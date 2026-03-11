@@ -5,6 +5,7 @@ A full-stack chat application that combines traditional messaging with AI-powere
 ---
 
 ## Demo
+<img width="1895" height="844" alt="image" src="https://github.com/user-attachments/assets/2ca901ac-a228-4470-be58-1a356a24f2b6" />
 
 ![Chat App Screenshot](assets/chat-app-demo.png)
 
